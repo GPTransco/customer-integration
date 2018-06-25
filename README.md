@@ -24,6 +24,24 @@ Basically, carriers use our system to keep track of most of the things occurring
 * SCAC is a Standard Carrier Alpha Code which is unique for each carrier (4 letter code);
 * There is no multi-tenancy and only 1 carrier is using the system;
 
+## Technical requirements
+* Create a Ruby on Rails application
+* Your application should include models mentioned above
+* Setup your application so you may fullfill the SpaceWagon's integration from
+  the business perspective
+* Implement SpaceWagon's service
+
+### Tips
+* As mentioned before, we have way too many integrations, so your code should be
+  easy to read, understand and maintain
+* Your code should be tested (feel free to use any framework, we use RSpec)
+* Do not waste time on application's architecture as you have not enough
+  information to make correct decisions
+* Homework assignment might seem uninformative and missing pieces but that is
+  what we are testing - your creativity and ability to perform
+
+If you have any questions, contact your associated person.
+
 ## SpaceWagon specification
 
 Below is the exact information we received from SpaceWagon.
@@ -35,8 +53,8 @@ Headers are not required, but can be included.
 
 #### Status instructions
 
-* Load numbers and truck locations should be included on the file once a truck has been assignedto a load.
-* A delivery timestamp should populate on the file once the truck is empty.The load can be dropped off the file once a delivery timestamp has been populated.
+* Load numbers and truck locations should be included on the file once a truck has been assigned to a load.
+* A delivery timestamp should populate on the file once the truck is empty. The load can be dropped off the file once a delivery timestamp has been populated.
 
 #### Layout
 The column numbering below is flexible. Required fields are indicated.
@@ -61,9 +79,10 @@ The column numbering below is flexible. Required fields are indicated.
 * Column 10 (Required when load is delivered)
   Timestamp of Delivery Date and Time
 
-Acceptable Timestamp formats
-|Timestamp|
-|---|
+##### Acceptable Timestamp formats
+
+|Timestamp    |
+|---          |
 |201508270014 |
 |2015-08-26 22:06:41.000|
 |2015-08-21-10.01.00|
@@ -95,8 +114,3 @@ The file should be sent every 15 minutes. Please talk with a SpaceWagon associat
 * File names must be unique. We recommend adding timestamp to the end of a standard file name
 * Credentials will be suplied by the SpaceWagon operations team upon request
 * Note: The file name should not include a period in the name
-
-
-
-
-
