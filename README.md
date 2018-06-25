@@ -25,20 +25,19 @@ Basically, carriers use our system to keep track of most of the things occurring
 * There is no multi-tenancy and only 1 carrier is using the system;
 
 ## Technical requirements
-* Create a Ruby on Rails application
-* Your application should include models mentioned above
-* Setup your application so you may fullfill the SpaceWagon's integration from
-  the business perspective
-* Implement SpaceWagon's service
+* Create a Ruby on Rails application;
+* Your application should include models mentioned above;
+* Setup your application so you may fullfill the SpaceWagon's integration from the business perspective;
+* Implement SpaceWagon's service;
 
 ### Tips
 * As mentioned before, we have way too many integrations, so your code should be
-  easy to read, understand and maintain
-* Your code should be tested (feel free to use any framework, we use RSpec)
+  easy to read, understand and maintain;
+* Your code should be tested (feel free to use any framework, we use RSpec);
 * Do not waste time on application's architecture as you have not enough
-  information to make correct decisions
+  information to make correct decisions;
 * Homework assignment might seem uninformative and missing pieces but that is
-  what we are testing - your creativity and ability to perform
+  what we are testing - your creativity and ability to perform;
 
 If you have any questions, contact your associated person.
 
@@ -108,9 +107,9 @@ The column numbering below is flexible. Required fields are indicated.
 The file should be sent every 15 minutes. Please talk with a SpaceWagon associate if this is not possible.
 
 ##### FTP Instructions
-* Link
-* Files should be placed in the "new" folder
-* We accept CSV, XLS, XLSX
-* File names must be unique. We recommend adding timestamp to the end of a standard file name
-* Credentials will be suplied by the SpaceWagon operations team upon request
-* Note: The file name should not include a period in the name
+* Link files.000webhost.com;
+* Files should be placed in the "new" folder;
+* We accept CSV, XLS, XLSX;
+* File names must be unique. We recommend adding timestamp to the end of a standard file name;
+* Credentials will be suplied by the SpaceWagon operations team upon request;
+* Note: The file name should not include a period in the name;
