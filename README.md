@@ -8,11 +8,11 @@ We were requested by our customers to have an integration with SpaceWagon which 
 
 For you to better understand the business logic, let's take a look:
 
-* Carriers (companies which use OpenRoad) have loads, trucks, trailers,
+* Carriers (companies which use OpenRoad) have shipments, trucks, trailers,
   customers and drivers;
-* Each load has at least one driver, truck and trailer assigned, and exactly one
+* Each shipment has at least one driver, truck and trailer assigned, and exactly one
   customer;
-* Loads have statuses so it is easier to track them ("booked", "assigned", "en_route_to_shipper", "at_shipper", "picked_up", "delayed", "en_route_to_consignee", "at_consignee", "delivered", "delivered_pending", "exported");
+* Shipments have statuses so it is easier to track them ("booked", "assigned", "en_route_to_shipper", "at_shipper", "picked_up", "delayed", "en_route_to_consignee", "at_consignee", "delivered", "delivered_pending", "exported");
 * All trucks and trailers also have GPS devices and we have access to the real time location;
 
 Basically, carriers use our system to keep track of most of the things occurring in their business but brokers (the ones receiving information through third-party services) only needs a piece of it (e.g. status, location, driver ID, truck ID).
@@ -20,7 +20,7 @@ Basically, carriers use our system to keep track of most of the things occurring
 ## Technical assumptions
 
 * When receiving geocoordinates from GPS devices, city, state, country, zip code and all of needed information is included;
-* BOL# (bill of lading ID) is unique to each load;
+* BOL# (bill of lading ID) is unique to each shipment;
 * SCAC is a Standard Carrier Alpha Code which is unique for each carrier (4 letter code);
 * There is no multi-tenancy and only 1 carrier is using the system;
 
