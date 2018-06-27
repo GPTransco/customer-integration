@@ -15,7 +15,7 @@ For you to better understand the business logic, let's take a look:
 * Shipments have statuses so it is easier to track them ("booked", "assigned", "en_route_to_shipper", "at_shipper", "picked_up", "delayed", "en_route_to_consignee", "at_consignee", "delivered", "delivered_pending", "exported");
 * All trucks and trailers also have GPS devices and we have access to the real time location;
 
-Basically, carriers use our system to keep track of most of the things occurring in their business but brokers (the ones receiving information through third-party services) only needs a piece of it (e.g. status, location, driver ID, truck ID).
+Basically, carriers use our system to keep track of most of the things occurring in their business but brokers only require small piece of information sent to them through third-party services (e.g. status, location, driver ID, truck ID).
 
 ## Technical assumptions
 
