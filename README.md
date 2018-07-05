@@ -2,7 +2,7 @@
 
 OpenRoad is a transport management system and we as developers have to integrate plenty of third party services (transfer information to brokers, other carriers, etc).  At this point, we have more than 15 different integrations done. As a result, we need to maintain and debug all of the code associated with integrations, so it must be easy to maintain.
 
-We were requested by our customers to have an integration with SpaceWagon which is one of the leading company in the USA.
+We were requested by our customers to have an integration with SpaceWagon which is one of the leading companies in the USA.
 
 # Requirements
 
