@@ -107,7 +107,6 @@ The column numbering below is flexible. Required fields are indicated.
 The file should be sent every 15 minutes. Please talk with a SpaceWagon associate if this is not possible.
 
 ##### FTP Instructions
-* Link files.000webhost.com;
 * Files should be placed in the "new" folder;
 * We accept CSV, XLS, XLSX;
 * File names must be unique. We recommend adding timestamp to the end of a standard file name;
